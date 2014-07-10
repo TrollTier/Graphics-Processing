@@ -1,0 +1,38 @@
+﻿<Window x:Class="Bildalgorithmen.InteractionWindows.SolarizeFilterMask"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Solarisierungs-Filter" SizeToContent="WidthAndHeight">
+<DockPanel>
+        <Image DockPanel.Dock="Left"
+               Source="{Binding PreviewImage}"
+               Width="200" Height="200" />
+
+        <StackPanel DockPanel.Dock="Top"
+                    Orientation="Horizontal"
+                    VerticalAlignment="Center">
+            <TextBlock Text="Grenzwert: " />
+            <TextBox Text="{Binding Threshold, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" 
+                     Width="50" />
+
+            <StackPanel>
+                <RepeatButton Command="{Binding IncreaseThresholdCommand}" Height="20" Width="20"
+                        Background="Transparent">
+                    <Image Source="pack://application:,,,/Icons/icon_arrow_up.png" />
+                </RepeatButton>
+                <RepeatButton Command="{Binding DecreaseThresholdCommand}" Height="20" Width="20"
+                        Background="Transparent">
+                    <Image Source="pack://application:,,,/Icons/icon_arrow_down.png" />
+                </RepeatButton>
+            </StackPanel>
+        </StackPanel>
+
+        <StackPanel Orientation="Horizontal"
+                    DockPanel.Dock="Bottom"
+                    VerticalAlignment="Bottom">
+            <Button Command="{Binding SaveCommand}"
+                    Content="Ok" Width="50" Height="40"/>
+            <Button Command="{Binding CancelCommand}"
+                    Content="Abbrechen" Margin="5, 0, 0, 0"/>
+        </StackPanel>
+    </DockPanel>
+</Window>

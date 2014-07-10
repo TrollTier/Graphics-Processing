@@ -1,0 +1,57 @@
+c:\users\sickingp\documents\visual studio 2010\Projects\Bildalgorithmen\Bildalgorithmen\bin\Debug\Bildalgorithmen.exe
+c:\users\sickingp\documents\visual studio 2010\Projects\Bildalgorithmen\Bildalgorithmen\bin\Debug\Bildalgorithmen.pdb
+c:\users\sickingp\documents\visual studio 2010\Projects\Bildalgorithmen\Bildalgorithmen\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\sickingp\documents\visual studio 2010\Projects\Bildalgorithmen\Bildalgorithmen\obj\x86\Debug\MainWindow.baml
+c:\users\sickingp\documents\visual studio 2010\Projects\Bildalgorithmen\Bildalgorithmen\obj\x86\Debug\MainWindow.g.cs
+c:\users\sickingp\documents\visual studio 2010\Projects\Bildalgorithmen\Bildalgorithmen\obj\x86\Debug\App.g.cs
+c:\users\sickingp\documents\visual studio 2010\Projects\Bildalgorithmen\Bildalgorithmen\obj\x86\Debug\Bildalgorithmen_MarkupCompile.cache
+c:\users\sickingp\documents\visual studio 2010\Projects\Bildalgorithmen\Bildalgorithmen\obj\x86\Debug\Bildalgorithmen.g.resources
+c:\users\sickingp\documents\visual studio 2010\Projects\Bildalgorithmen\Bildalgorithmen\obj\x86\Debug\Bildalgorithmen.Properties.Resources.resources
+c:\users\sickingp\documents\visual studio 2010\Projects\Bildalgorithmen\Bildalgorithmen\obj\x86\Debug\GenerateResource.read.1.tlog
+c:\users\sickingp\documents\visual studio 2010\Projects\Bildalgorithmen\Bildalgorithmen\obj\x86\Debug\GenerateResource.write.1.tlog
+c:\users\sickingp\documents\visual studio 2010\Projects\Bildalgorithmen\Bildalgorithmen\obj\x86\Debug\Bildalgorithmen.exe
+c:\users\sickingp\documents\visual studio 2010\Projects\Bildalgorithmen\Bildalgorithmen\obj\x86\Debug\Bildalgorithmen.pdb
+c:\users\sickingp\documents\visual studio 2010\Projects\Bildalgorithmen\Bildalgorithmen\bin\Debug\InteractionHelpers.cs.pdb
+E:\Projekte\CSharp\Bildalgorithmen\Bildalgorithmen\obj\x86\Debug\Bildalgorithmen.exe
+E:\Projekte\CSharp\Bildalgorithmen\Bildalgorithmen\obj\x86\Debug\Bildalgorithmen.pdb
+E:\Projekte\CSharp\Bildalgorithmen\Bildalgorithmen\bin\Debug\Bildalgorithmen.exe
+E:\Projekte\CSharp\Bildalgorithmen\Bildalgorithmen\bin\Debug\Bildalgorithmen.pdb
+E:\Projekte\CSharp\Bildalgorithmen\Bildalgorithmen\bin\Debug\InteractionHelpers.cs.pdb
+E:\Projekte\CSharp\Bildalgorithmen\Bildalgorithmen\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Projekte\CSharp\Bildalgorithmen\Bildalgorithmen\obj\x86\Debug\MainWindow.baml
+E:\Projekte\CSharp\Bildalgorithmen\Bildalgorithmen\obj\x86\Debug\MainWindow.g.cs
+E:\Projekte\CSharp\Bildalgorithmen\Bildalgorithmen\obj\x86\Debug\App.g.cs
+E:\Projekte\CSharp\Bildalgorithmen\Bildalgorithmen\obj\x86\Debug\Bildalgorithmen_MarkupCompile.cache
+E:\Projekte\CSharp\Bildalgorithmen\Bildalgorithmen\obj\x86\Debug\Bildalgorithmen.g.resources
+E:\Projekte\CSharp\Bildalgorithmen\Bildalgorithmen\obj\x86\Debug\Bildalgorithmen.Properties.Resources.resources
+E:\Projekte\CSharp\Bildalgorithmen\Bildalgorithmen\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\Projekte\CSharp\Bildalgorithmen\Bildalgorithmen\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Patrick\Desktop\Bildalgorithmen\Bildalgorithmen\obj\x86\Debug\Bildalgorithmen.exe
+C:\Users\Patrick\Desktop\Bildalgorithmen\Bildalgorithmen\obj\x86\Debug\Bildalgorithmen.pdb
+C:\Users\Patrick\Desktop\Bildalgorithmen\Bildalgorithmen\bin\Debug\Bildalgorithmen.exe
+C:\Users\Patrick\Desktop\Bildalgorithmen\Bildalgorithmen\bin\Debug\Bildalgorithmen.pdb
+C:\Users\Patrick\Desktop\Bildalgorithmen\Bildalgorithmen\bin\Debug\InteractionHelpers.cs.pdb
+C:\Users\Patrick\Desktop\Bildalgorithmen\Bildalgorithmen\obj\x86\Debug\Bildalgorithmen.csprojResolveAssemblyReference.cache
+C:\Users\Patrick\Desktop\Bildalgorithmen\Bildalgorithmen\obj\x86\Debug\MainWindow.baml
+C:\Users\Patrick\Desktop\Bildalgorithmen\Bildalgorithmen\obj\x86\Debug\MainWindow.g.cs
+C:\Users\Patrick\Desktop\Bildalgorithmen\Bildalgorithmen\obj\x86\Debug\App.g.cs
+C:\Users\Patrick\Desktop\Bildalgorithmen\Bildalgorithmen\obj\x86\Debug\Bildalgorithmen_MarkupCompile.cache
+C:\Users\Patrick\Desktop\Bildalgorithmen\Bildalgorithmen\obj\x86\Debug\Bildalgorithmen.g.resources
+C:\Users\Patrick\Desktop\Bildalgorithmen\Bildalgorithmen\obj\x86\Debug\Bildalgorithmen.Properties.Resources.resources
+C:\Users\Patrick\Desktop\Bildalgorithmen\Bildalgorithmen\obj\x86\Debug\Bildalgorithmen.csproj.GenerateResource.Cache
+C:\Users\sickingp\Documents\Visual Studio 2010\Projects\Bildalgorithmen\Bildalgorithmen\obj\x86\Debug\InteractionWindows\GaussianBlurWindow\GaussianBlurFilterWindow.baml
+C:\Users\sickingp\Documents\Visual Studio 2010\Projects\Bildalgorithmen\Bildalgorithmen\obj\x86\Debug\InteractionWindows\GaussianBlurWindow\GaussianBlurFilterWindow.g.cs
+C:\Users\sickingp\Documents\Visual Studio 2010\Projects\Bildalgorithmen\Bildalgorithmen\obj\x86\Debug\InteractionWindows\GammaFilterMask\GammaFilterMask.baml
+C:\Users\sickingp\Documents\Visual Studio 2010\Projects\Bildalgorithmen\Bildalgorithmen\obj\x86\Debug\InteractionWindows\GammaFilterMask\GammaFilterMask.g.cs
+C:\Users\sickingp\Documents\Visual Studio 2010\Projects\Bildalgorithmen\Bildalgorithmen\obj\x86\Debug\InteractionWindows\MaskFilterMask\MaskFilterMask.baml
+C:\Users\sickingp\Documents\Visual Studio 2010\Projects\Bildalgorithmen\Bildalgorithmen\obj\x86\Debug\InteractionWindows\MaskFilterMask\MaskFilterMask.g.cs
+C:\Users\sickingp\Documents\Visual Studio 2010\Projects\Bildalgorithmen\Bildalgorithmen\obj\x86\Debug\InteractionWindows\GlassFilterMask\GlassFilterMask.baml
+C:\Users\sickingp\Documents\Visual Studio 2010\Projects\Bildalgorithmen\Bildalgorithmen\obj\x86\Debug\InteractionWindows\GlassFilterMask\GlassFilterMask.g.cs
+C:\Users\sickingp\Documents\Visual Studio 2010\Projects\Bildalgorithmen\Bildalgorithmen\obj\x86\Debug\InteractionWindows\PosterizeFilterMask\PosterizeFilterMask.baml
+C:\Users\sickingp\Documents\Visual Studio 2010\Projects\Bildalgorithmen\Bildalgorithmen\obj\x86\Debug\InteractionWindows\PosterizeFilterMask\PosterizeFilterMask.g.cs
+C:\Users\sickingp\Documents\Visual Studio 2010\Projects\Bildalgorithmen\Bildalgorithmen\obj\x86\Debug\InteractionWindows\SolarizeFilterMask\SolarizeFilterMask.baml
+C:\Users\sickingp\Documents\Visual Studio 2010\Projects\Bildalgorithmen\Bildalgorithmen\obj\x86\Debug\InteractionWindows\SolarizeFilterMask\SolarizeFilterMask.g.cs
+C:\Users\sickingp\Documents\Visual Studio 2010\Projects\Bildalgorithmen\Bildalgorithmen\obj\x86\Debug\InteractionWindows\GainFilterMask\GainFilterMask.baml
+C:\Users\sickingp\Documents\Visual Studio 2010\Projects\Bildalgorithmen\Bildalgorithmen\obj\x86\Debug\InteractionWindows\GainFilterMask\GainFilterMask.g.cs
+C:\Users\sickingp\Documents\Visual Studio 2010\Projects\Bildalgorithmen\Bildalgorithmen\obj\x86\Debug\InteractionWindows\WindowCloseDialog\WindowCloseDialog.baml
+C:\Users\sickingp\Documents\Visual Studio 2010\Projects\Bildalgorithmen\Bildalgorithmen\obj\x86\Debug\InteractionWindows\WindowCloseDialog\WindowCloseDialog.g.cs

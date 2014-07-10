@@ -1,0 +1,38 @@
+﻿<Window x:Class="Bildalgorithmen.InteractionWindows.WindowCloseDialog"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Schließen?" SizeToContent="WidthAndHeight"
+        WindowStartupLocation="CenterScreen" PreviewKeyDown="Window_PreviewKeyDown">
+    <Canvas Width="400" Height="250">
+        <Path Stroke="Black"
+              StrokeThickness="1"
+              Canvas.Right="100">
+              <Path.Data>
+                <PathGeometry Figures="M 230,80
+                                  C 220,0 50,0 0,60
+                                  C -10,90 120,150 230,80" />
+              </Path.Data>
+        </Path>
+
+        <TextBlock Text="Hast du schon alles erledigt?" 
+                   FontSize="14"
+                   Canvas.Right="130"
+                   Canvas.Top="60"/>
+
+        <Image Source="pack://application:,,,/Icons/Spongebob.png" 
+               Width="100" Height="200"
+               Canvas.Right="0"/>
+        
+        <StackPanel Orientation="Horizontal"
+                    Canvas.Bottom="50"
+                    Canvas.Left="99">
+            <Button Name="cmdYes" Content="Ja"
+                    Click="cmdYes_Click" 
+                    Width="80"
+                    Height="30"/>
+            <Button Name="cmdNo" Content="Nein"
+                    Click="cmdNo_Click" 
+                    Width="80" Margin="5, 0, 0, 0"/>
+        </StackPanel>
+    </Canvas>
+</Window>

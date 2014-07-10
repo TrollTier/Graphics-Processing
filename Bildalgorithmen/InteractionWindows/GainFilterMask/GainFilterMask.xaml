@@ -1,0 +1,63 @@
+﻿<Window x:Class="Bildalgorithmen.InteractionWindows.GainFilterMask"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Kontrast-Filter" SizeToContent="WidthAndHeight">
+    <DockPanel>
+        <Image DockPanel.Dock="Left"
+               Source="{Binding PreviewImage}"
+               Width="200" Height="200" />
+
+        <Grid DockPanel.Dock="Top">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="50" />
+                <ColumnDefinition Width="30" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+            
+            <TextBlock Text="Bias: " 
+                       Grid.Row="0" Grid.Column="0" />
+            <TextBox Text="{Binding Bias, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                     Grid.Row="0" Grid.Column="1" />
+            
+            <StackPanel Grid.Row="0" Grid.Column="2">
+                <RepeatButton Command="{Binding IncreaseBiasCommand}" Height="20" Width="20"
+                        Background="Transparent">
+                    <Image Source="pack://application:,,,/Icons/icon_arrow_up.png" />
+                </RepeatButton>
+                <RepeatButton Command="{Binding DecreaseBiasCommand}" Height="20" Width="20"
+                        Background="Transparent">
+                    <Image Source="pack://application:,,,/Icons/icon_arrow_down.png" />
+                </RepeatButton>
+            </StackPanel>
+
+            <TextBlock Text="Gain: " 
+                       Grid.Row="1" Grid.Column="0" />
+            <TextBox Text="{Binding Gain, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                     Grid.Row="1" Grid.Column="1" />
+
+            <StackPanel Grid.Row="1" Grid.Column="2">
+                <RepeatButton Command="{Binding IncreaseGainCommand}" Height="20" Width="20"
+                        Background="Transparent">
+                    <Image Source="pack://application:,,,/Icons/icon_arrow_up.png" />
+                </RepeatButton>
+                <RepeatButton Command="{Binding DecreaseGainCommand}" Height="20" Width="20"
+                        Background="Transparent">
+                    <Image Source="pack://application:,,,/Icons/icon_arrow_down.png" />
+                </RepeatButton>
+            </StackPanel>
+        </Grid>
+        
+       <StackPanel Orientation="Horizontal"
+                    DockPanel.Dock="Bottom"
+                    VerticalAlignment="Bottom">
+            <Button Command="{Binding SaveCommand}"
+                    Content="Ok" Width="50" Height="40"/>
+            <Button Command="{Binding CancelCommand}"
+                    Content="Abbrechen" Margin="5, 0, 0, 0"/>
+        </StackPanel>
+    </DockPanel>
+</Window>

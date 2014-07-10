@@ -1,0 +1,66 @@
+﻿<Window x:Class="Bildalgorithmen.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525"
+        Closing="Window_Closing" WindowStartupLocation="CenterScreen">
+    <DockPanel>
+        <Menu DockPanel.Dock="Top">
+            <MenuItem Header="Datei">
+                <MenuItem Header="Öffnen" 
+                          Command="{Binding OpenFileCommand}"/>
+            </MenuItem>
+            
+            <MenuItem Header="Bild">
+                <MenuItem Header="Skalieren"
+                          Command="{Binding ScaleCommand}" />
+            </MenuItem>
+            
+            <MenuItem Header="Filter">
+                <MenuItem Header="Graustufe">
+                    <MenuItem Header="Lightness"
+                              Command="{Binding LightnessGrayScaleFilterCommand}" />
+                    <MenuItem Header="Mittelwert"
+                              Command="{Binding AverageGrayScaleFilterCommand}" />
+                    <MenuItem Header="Luminosity"
+                              Command="{Binding LuminosityGrayScaleFilterCommand}" />
+                </MenuItem>
+                
+                <MenuItem Header="Dithering">
+                    <MenuItem Header="Floyd-Steinberg Dithering (Monochrom)"
+                              Command="{Binding FloydSteinbergDitheringFilterCommand}" />
+                </MenuItem>
+                
+                <MenuItem Header="Weichzeichnen">
+                    <MenuItem Header="Gauss'scher Weichzeichner"
+                              Command="{Binding GaussianBlurFilterCommand}" />
+                </MenuItem>
+                <MenuItem Header="Invertieren">
+                    <MenuItem Header="Invertieren"
+                          Command="{Binding InvertFilterCommand}" />
+                    <MenuItem Header="Alpha invertieren"
+                              Command="{Binding InvertAlphaFilterCommand}" />
+                    <MenuItem Header="Solarisieren"
+                              Command="{Binding SolarizeFilterCommand}" />
+                </MenuItem>
+                <MenuItem Header="Gamma"
+                          Command="{Binding GammaFilterCommand}" />
+                <MenuItem Header="Glas"
+                          Command="{Binding GlassFilterCommand}" />
+                <MenuItem Header="Kontrast"
+                          Command="{Binding GainFilterCommand}" />
+                <MenuItem Header="Maske"
+                          Command="{Binding MaskFilterCommand}" />
+                <MenuItem Header="Posterisieren"
+                          Command="{Binding PosterizeFilterCommand}" />
+            </MenuItem>
+        </Menu>
+        
+        <ScrollViewer DockPanel.Dock="Top"
+                      VerticalScrollBarVisibility="Auto"
+                      HorizontalScrollBarVisibility="Auto" >
+            <Image Source="{Binding Image}" 
+                   Width="{Binding Image.Width}"
+                   Height="{Binding Image.Height}"/>
+        </ScrollViewer>
+    </DockPanel>
+</Window>
